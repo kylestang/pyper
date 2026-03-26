@@ -22,6 +22,17 @@ If the wrapped command is killed by a signal other than SIGPIPE, pyper prints
 the signal code to stderr and exits with status 2.
 ```
 
+Bash example:
+```bash
+set -euo pipefail
+
+# Misery
+yes | head -n 1
+
+#Joy
+pyper yes | head -n 1
+```
+
 ## Install
 
 `cargo install pyper`
