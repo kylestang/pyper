@@ -2,6 +2,7 @@
 name = "pyper"
 version = "0.1.0"
 edition = "2024"
+description = "A command-line utility to gracefully ignore SIGPIPE"
 repository = "https://github.com/kylestang/pyper"
 license = "ISC"
 keywords = ["sigpipe", "signal", "bash", "pipe"]
