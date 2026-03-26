@@ -29,7 +29,7 @@ set -euo pipefail
 # Misery
 yes | head -n 1
 
-#Joy
+# Joy
 pyper yes | head -n 1
 ```
 
