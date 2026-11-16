@@ -1,6 +1,6 @@
 [package]
 name = "pyper"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2024"
 description = "A command-line utility to gracefully ignore SIGPIPE"
 repository = "https://github.com/kylestang/pyper"
@@ -9,4 +9,4 @@ keywords = ["sigpipe", "signal", "bash", "pipe"]
 
 [profile.release]
 codegen-units = 1
-lto = false
+lto = "fat"
